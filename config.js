@@ -11,10 +11,10 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Dylan',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -24,7 +24,7 @@ const CONFIG = {
 
   // Weather
   weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+  weatherIcons: 'Nord', // 'Nord', 'Dark', 'White', 'OneDark'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -48,13 +48,13 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/mail/u/0/#inbox',
     },
     {
       id: '3',
-      name: 'Todoist',
+      name: 'TodoList',
       icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      link: 'https://app.standardnotes.org/',
     },
     {
       id: '4',
@@ -70,9 +70,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'YOutube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://www.youtube.com/',
     },
   ],
 
@@ -88,38 +88,38 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
         name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://music.youtube.com/playlist?list=PL1Vo2UgyAkWMMSe4uUhTBEB_VO1sgDcj_',
+      },
+      {
+        name: '90s Alternative',
+        link: 'https://music.youtube.com/playlist?list=RDCLAK5uy_m_h-nx7OCFaq9AlyXv78lG0AuloqW_NUA',
+      },
+      {
+        name: 'Instrumental',
+        link: 'https://music.youtube.com/playlist?list=PL1Vo2UgyAkWM0gujhkHpLprEI6nGhWjBk',
+      },
+      {
+        name: 'Volbeat',
+        link: 'https://music.youtube.com/channel/UC5p42RKUQutsl7bDxFrCHKw',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'DuckDuckGo',
+        link: 'https://duckduckgo.com/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Standard Notes',
+        link: 'https://app.standardnotes.org/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Khan Academy',
+        link: 'https://www.khanacademy.org/',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Amazon',
+        link: 'https://www.amazon.com/',
       },
     ],
   },
