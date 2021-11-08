@@ -70,7 +70,7 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'YOutube',
+      name: 'Youtube',
       icon: 'youtube',
       link: 'https://www.youtube.com/',
     },
@@ -118,8 +118,8 @@ const CONFIG = {
         link: 'https://www.khanacademy.org/',
       },
       {
-        name: 'Amazon',
-        link: 'https://www.amazon.com/',
+        name: 'Typings',
+        link: 'https://typings.gg/',
       },
     ],
   },
