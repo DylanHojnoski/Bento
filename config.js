@@ -110,8 +110,8 @@ const CONFIG = {
         link: 'https://duckduckgo.com/',
       },
       {
-        name: 'Standard Notes',
-        link: 'https://app.standardnotes.org/',
+        name: 'Udemy',
+        link: 'https://www.udemy.com/',
       },
       {
         name: 'Khan Academy',
