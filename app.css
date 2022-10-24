@@ -70,6 +70,18 @@
   ); /* Filter color */
 }
 
+.everForest {
+  --accent: #a7c080; /* Hover color */
+  --bg: #2b3339; /* Background color */
+  --sbg: #505a60; /* Cards color */
+  --fg: #d3c6aa; /* Foreground color */
+  --sfg: #e6e9c4; /* Secondary Foreground color */
+  --imgcol: linear-gradient(
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.85)
+  ); /* Filter color */
+}
+
 /* S T Y L E S */
 
 * {
